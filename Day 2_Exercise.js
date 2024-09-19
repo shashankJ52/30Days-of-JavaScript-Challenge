@@ -41,16 +41,17 @@ console.log("Last Occurrence ('a') :", challenge.lastIndexOf("a"));
 let sentence =
 	"You cannot end a sentence with because because because is a conjunction";
 console.log("First Occurrence ('bcuz') :", sentence.indexOf("because"));
-console.log("Last Occurrence ('bcuz') :", sentence.lastIndexOf("because"));
 // 18. Use lastIndexOf to find the position of the last occurrence of the word because in the following sentence:'You cannot end a sentence with because because because is a conjunction'
+console.log("Last Occurrence ('bcuz') :", sentence.lastIndexOf("because"));
 // 19. Use search to find the position of the first occurrence of the word because in the following sentence:'You cannot end a sentence with because because because is a conjunction'
+console.log("Search Occurrence ('bcuz') :", sentence.search("because"));
 // 20. Use trim() to remove any trailing whitespace at the beginning and the end of a string.E.g ' 30 Days Of JavaScript '.
 console.log(" 30 Days Of JavaScript ");
 console.log(" 30 Days Of JavaScript ".trim());
 // 21. Use startsWith() method with the string 30 Days Of JavaScript and make the result true
 console.log("Starts with :", challenge.startsWith("30"));
 // 22. Use endsWith() method with the string 30 Days Of JavaScript and make the result true
-console.log("Ends with :", challenge.endsWih("30"));
+console.log("Ends with :", challenge.endsWith("30"));
 // 23. Use match() method to find all the a’s in 30 Days Of JavaScript
 console.log("MATCH :", challenge.match("a"));
 // 24. Use concat() and merge '30 Days of' and 'JavaScript' to a single string, '30 Days Of JavaScript'
